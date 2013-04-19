@@ -13,3 +13,7 @@ echo "Downloading msm8660 kernel"
 git clone https://github.com/CyanogenMod/android_kernel_htc_msm8660.git -b cm-10.1-ds kernel/htc/msm8660
 
 cd $TOPDIR
+
+echo "Downloading prebuilts"
+vendor/cm/get-prebuilts
+echo "Time to build"
